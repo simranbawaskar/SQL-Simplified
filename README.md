@@ -1,3 +1,4 @@
+![SQL mindmap](https://github.com/simranbawaskar/SQL-Simplified-Your-Passport-to-Data-Mastery-/assets/100149280/a7c25ad2-756f-400e-b30d-b9aeb9da3d2c)
 
 Embark on an enriching journey through the world of SQL with our comprehensive series. We'll kickstart our exploration by delving into the foundational aspects of DDL, DML, and DQL commands, unraveling their diverse applications and significance.
 As we progress, we'll delve into more advanced topics, including stored procedures, window functions, and various types of joins, offering a deeper understanding of their functionalities and practical implications. 
