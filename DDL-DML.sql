@@ -14,8 +14,8 @@ dname  NVARCHAR(20),
 create table Sales (
 sid int, sname varchar(150), totalsales int);
 
---Now in the above question add an ‘email’ column in employee table,
--- add ‘department_code’ column in department table, and add ‘date’ column in sales table writing alter statement.
+--Now in the above question add an â€˜emailâ€™ column in employee table,
+-- add â€˜department_codeâ€™ column in department table, and add â€˜dateâ€™ column in sales table writing alter statement.
 
 ALTER table Employee add email varchar(250);
 
@@ -44,10 +44,10 @@ delete from Sales;
 UPDATE Employee
 SET salary = 10000;
 
---update statement to update all the employee name as ‘linda’
+--update statement to update all the employee name as â€˜lindaâ€™
 UPDATE Employee SET empname = 'Linda';
 
---update statement to update all the gender as ‘female’.
+--update statement to update all the gender as â€˜femaleâ€™.
 UPDATE Employee SET gender = 'F';
 
 DROP table Employee;
@@ -141,16 +141,16 @@ INSERT INTO suppliers VALUES
 (800,	'Flowers Foods'	,'Thomasville',	'Georgia'),
 (900,	'Electronic Arts',	'Redwood City',	'California');
 
---2.	Write a query to delete a record where state as ‘California’ and supplier_name as ‘Google’.
+--2.	Write a query to delete a record where state as â€˜Californiaâ€™ and supplier_name as â€˜Googleâ€™.
 delete from suppliers where state ='California' AND supplier_name ='Google';
 
---3.	Write a query to delete a record where state as ‘California’ and supplier_name as ‘Google’ and ‘Oracle’.
+--3.	Write a query to delete a record where state as â€˜Californiaâ€™ and supplier_name as â€˜Googleâ€™ and â€˜Oracleâ€™.
 delete from suppliers where state ='California' AND supplier_name IN ('Google','Oracle') ;
 
---4.	Write a query to delete a record from suppliers table where supplier_name as ‘Microsoft’.
+--4.	Write a query to delete a record from suppliers table where supplier_name as â€˜Microsoftâ€™.
 DELETE FROM suppliers where supplier_name = 'Microsoft';
 
---5.	Write a query to delete a record from suppliers table where state as ‘California’.
+--5.	Write a query to delete a record from suppliers table where state as â€˜Californiaâ€™.
 delete from suppliers where state ='California';
 
 select * from suppliers;
